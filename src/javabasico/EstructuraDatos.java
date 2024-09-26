@@ -117,14 +117,14 @@ public class EstructuraDatos {
             edades.size();
             
             for(Object item : edades.keySet()){
-            System.out.println("LAS KEYS: "+ item + " VALOR: " +edades.get(item));
+            System.out.println("LAS KEYS: "+ item +", VALOR: " +edades.get(item));
                 
             if (edades.get(item) >= 18) {
                 System.out.println("Mayor de edad");
             } else {
                 System.out.println("Menor de edad");
             }
-             }
+            }
         }
         
 }
