@@ -37,6 +37,21 @@ public class JavaBasico {
                 //il.estructura();
                 il.TablaMultiplicar();
                 break;
+            case 4:
+                Exepciones ul = new Exepciones();
+                ul.manejoError();
+                break;
+            case 5:
+                EstructuraDatos ed = new EstructuraDatos();
+                System.out.println("ARRAY: ");
+                ed.array();
+                System.out.println("LIST: ");
+                ed.list();
+                System.out.println("MAP: ");
+                ed.map();
+                break;
+                
+                
           }
                                   
     }
